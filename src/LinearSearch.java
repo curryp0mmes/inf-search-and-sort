@@ -26,6 +26,8 @@ public class LinearSearch {
 		suchReihung = new int[laenge];
 		
 		zahlenGenerator(laenge);
+		
+		
 		System.out.println("Such-Reihung");
 		reihungAusgeben(suchReihung);
 		//System.out.println("Zahlen-Reihung");

@@ -5,6 +5,9 @@ public class SearchMain {
 		Scanner scan = new Scanner(System.in);
 		int modus = -1;	//0=linear 1=bin
 		
+		new LinearSearch();
+		/*
+		 * 
 		while(modus == -1) {
 			System.out.println("Willst du linear [l] oder binär [b] suchen?\n");
 			String a = scan.nextLine();
@@ -18,5 +21,7 @@ public class SearchMain {
 			LinearSearchDyn lin = new LinearSearchDyn();
 		}
 		scan.close();
+		*
+		*/
 	}
 }
