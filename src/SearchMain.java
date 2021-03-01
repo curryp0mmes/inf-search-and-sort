@@ -5,7 +5,7 @@ public class SearchMain {
 		Scanner scan = new Scanner(System.in);
 		int modus = -1;	//0=linear 1=bin
 		
-		new LinearSearch();
+		new BinSearch();
 		/*
 		 * 
 		while(modus == -1) {
